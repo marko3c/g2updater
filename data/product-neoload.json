@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "slug": "neoload",
+    "displayName": "Tricentis NeoLoad",
+    "productPlaceholder": "NeoLoad",
+    "activeFeatureCategories": ["load-testing"]
+  },
+  "data": {
+    "profile_logo": "",
+    "grid_logo": "",
+    "what_is_product": "",
+    "languages_supported": [],
+    "software_type": [],
+    "cta_url": "",
+    "utm_campaign": "",
+    "utm_medium": "",
+    "utm_source": "",
+    "main_category": "",
+    "additional_categories": [],
+    "product_page_url": "https://www.tricentis.com/products/performance-testing-neoload",
+    "product_name": "Tricentis NeoLoad",
+    "seller_domain": "https://www.tricentis.com",
+    "year_founded": "2007",
+    "hq_location": "Vienna, Austria",
+    "twitter": "@Tricentis",
+    "seller_description": "",
+    "pricing_packages": [],
+    "pricing_description": "",
+    "pricing_footer": "",
+    "free_trial": "",
+    "pricing_list_file": "",
+    "features": {
+      "load-testing": {
+        "stress_testing": "",
+        "extreme_cases": "",
+        "test_variety_load": "",
+        "reporting_load": ""
+      }
+    }
+  }
+}

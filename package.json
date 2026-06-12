@@ -1,0 +1,14 @@
+{
+  "name": "g2-profile-manager",
+  "version": "1.0.0",
+  "description": "G2 product listing data manager for Tricentis",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "UNLICENSED"
+}

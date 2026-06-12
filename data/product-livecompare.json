@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "slug": "livecompare",
+    "displayName": "Tricentis LiveCompare",
+    "productPlaceholder": "LiveCompare",
+    "activeFeatureCategories": ["sap-store"]
+  },
+  "data": {
+    "profile_logo": "",
+    "grid_logo": "",
+    "what_is_product": "",
+    "languages_supported": [],
+    "software_type": [],
+    "cta_url": "",
+    "utm_campaign": "",
+    "utm_medium": "",
+    "utm_source": "",
+    "main_category": "",
+    "additional_categories": [],
+    "product_page_url": "https://www.tricentis.com/products/livecompare",
+    "product_name": "Tricentis LiveCompare",
+    "seller_domain": "https://www.tricentis.com",
+    "year_founded": "2007",
+    "hq_location": "Vienna, Austria",
+    "twitter": "@Tricentis",
+    "seller_description": "",
+    "pricing_packages": [],
+    "pricing_description": "",
+    "pricing_footer": "",
+    "free_trial": "",
+    "pricing_list_file": "",
+    "features": {
+      "sap-store": {
+        "sap_autonomous_task_execution": "", "sap_multi_step_planning": "", "sap_cross_system_integration": "",
+        "sap_adaptive_learning": "", "sap_natural_language_interaction": "", "sap_proactive_assistance": "", "sap_decision_making": ""
+      }
+    }
+  }
+}

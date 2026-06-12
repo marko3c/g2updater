@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "slug": "data-integrity",
+    "displayName": "Tricentis Data Integrity",
+    "productPlaceholder": "Data Integrity",
+    "activeFeatureCategories": []
+  },
+  "data": {
+    "profile_logo": "",
+    "grid_logo": "",
+    "what_is_product": "",
+    "languages_supported": [],
+    "software_type": [],
+    "cta_url": "",
+    "utm_campaign": "",
+    "utm_medium": "",
+    "utm_source": "",
+    "main_category": "",
+    "additional_categories": [],
+    "product_page_url": "https://www.tricentis.com/products/data-integrity",
+    "product_name": "Tricentis Data Integrity",
+    "seller_domain": "https://www.tricentis.com",
+    "year_founded": "2007",
+    "hq_location": "Vienna, Austria",
+    "twitter": "@Tricentis",
+    "seller_description": "",
+    "pricing_packages": [],
+    "pricing_description": "",
+    "pricing_footer": "",
+    "free_trial": "",
+    "pricing_list_file": "",
+    "features": {}
+  }
+}

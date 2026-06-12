@@ -1,0 +1,398 @@
+{
+  "sections": [
+    {
+      "id": "product-information",
+      "label": "Product Information",
+      "subsections": [
+        {
+          "id": "product-logos",
+          "label": "Section 1: Product Logos",
+          "fields": [
+            {
+              "id": "profile_logo",
+              "label": "Profile Logo",
+              "type": "file",
+              "accept": ".jpg,.png,.gif",
+              "minDimension": "400px",
+              "required": true,
+              "tooltip": "Placed in the lower-left corner of the banner. Text-based logo is acceptable. Min 400px."
+            },
+            {
+              "id": "grid_logo",
+              "label": "Grid® Logo",
+              "type": "file",
+              "accept": ".svg",
+              "maxSizeMB": 5,
+              "required": true,
+              "tooltip": "Appears small in reports and awards. Do not include text — use icon/symbol only."
+            }
+          ]
+        },
+        {
+          "id": "profile-details-a",
+          "label": "Section 2: Profile Details > 2a. What is [Product]?",
+          "fields": [
+            {
+              "id": "what_is_product",
+              "label": "What is [Product]?",
+              "type": "textarea",
+              "minWords": 250,
+              "maxWords": 500,
+              "required": true,
+              "tooltip": "Objective, dictionary-style definition. Opening sentence: '[Product] is a type of [software category] solution that helps users [use case].' Follow with 3-5 bullet points. No promotional language — avoid words like 'best', 'easiest', 'cutting-edge'."
+            }
+          ]
+        },
+        {
+          "id": "profile-details-b",
+          "label": "Section 2: Profile Details > 2b. Additional Profile Detail Fields",
+          "fields": [
+            {
+              "id": "languages_supported",
+              "label": "Languages Supported",
+              "type": "tag-select",
+              "tooltip": "List languages the software UI supports — not the support team's languages.",
+              "suggestions": ["English","German","French","Spanish","Japanese","Chinese (Simplified)","Chinese (Traditional)","Portuguese","Italian","Dutch","Korean","Russian","Polish","Swedish","Danish","Finnish","Norwegian","Czech","Hungarian","Romanian","Turkish","Arabic","Hebrew","Thai","Vietnamese","Indonesian","Malay","Greek","Ukrainian","Bulgarian","Croatian","Slovak","Slovenian","Estonian","Latvian","Lithuanian","Serbian","Catalan","Hindi"]
+            },
+            {
+              "id": "software_type",
+              "label": "Software Type",
+              "type": "checkbox-group",
+              "options": ["On Premises", "Hosted (in the cloud)"]
+            }
+          ]
+        },
+        {
+          "id": "cta-settings",
+          "label": "Section 3: CTA Settings",
+          "fields": [
+            {
+              "id": "cta_url",
+              "label": "CTA Button URL",
+              "type": "url",
+              "tooltip": "Point to: free trial page, product landing page, or sales/demo contact form."
+            },
+            {
+              "id": "utm",
+              "label": "UTM Parameters",
+              "type": "utm",
+              "tooltip": "Tracking parameters appended to product and vendor website URLs.",
+              "fields": [
+                { "id": "utm_campaign", "label": "UTM Campaign", "placeholder": "e.g. tricentis-tosca-g2" },
+                { "id": "utm_medium", "label": "UTM Medium", "placeholder": "e.g. cpc, referral, email" },
+                { "id": "utm_source", "label": "UTM Source", "placeholder": "e.g. g2" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product-categories",
+          "label": "Section 4: Product Categories",
+          "fields": [
+            {
+              "id": "main_category",
+              "label": "Main Category",
+              "type": "text",
+              "tooltip": "Determines breadcrumb navigation and is pre-selected on the review form. Choose the category that best represents the product."
+            },
+            {
+              "id": "additional_categories",
+              "label": "Additional Categories",
+              "type": "tag-select",
+              "tooltip": "Additional G2 categories for this product (up to 3). Category changes must meet G2's inclusion criteria."
+            }
+          ]
+        },
+        {
+          "id": "g2-managed",
+          "label": "Section 5: G2 Managed Profile Details",
+          "fields": [
+            {
+              "id": "product_page_url",
+              "label": "Product Page URL",
+              "type": "url",
+              "required": true,
+              "tooltip": "Should point to the tricentis.com product page."
+            },
+            {
+              "id": "product_name",
+              "label": "Product Name",
+              "type": "text",
+              "required": true,
+              "tooltip": "Check capitalisation and naming convention."
+            },
+            {
+              "id": "seller_domain",
+              "label": "Seller Domain",
+              "type": "url",
+              "required": true,
+              "tooltip": "Consistent across all products."
+            },
+            {
+              "id": "year_founded",
+              "label": "Year Founded",
+              "type": "year",
+              "tooltip": "Consistent across all products."
+            },
+            {
+              "id": "hq_location",
+              "label": "HQ Location",
+              "type": "text",
+              "tooltip": "Consistent across all products."
+            },
+            {
+              "id": "twitter",
+              "label": "X (Twitter) Handle",
+              "type": "text",
+              "tooltip": "Consistent across all products."
+            },
+            {
+              "id": "seller_description",
+              "label": "Seller Description",
+              "type": "textarea",
+              "required": true,
+              "tooltip": "Tricentis company boilerplate. Shared across all product listings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "packages-pricing",
+      "label": "Packages & Pricing",
+      "subsections": [
+        {
+          "id": "pricing-packages",
+          "label": "Section 1: Packages & Pricing",
+          "fields": [
+            {
+              "id": "pricing_packages",
+              "label": "Pricing Package(s)",
+              "type": "pricing-package",
+              "tooltip": "Each package contains pricing editions/levels with cost and feature details. Even if exact pricing cannot be disclosed, adding editions with feature details helps buyers understand which tier may fit their needs."
+            }
+          ]
+        },
+        {
+          "id": "pricing-basic",
+          "label": "Section 2: Basic Details",
+          "fields": [
+            {
+              "id": "pricing_description",
+              "label": "Pricing Description",
+              "type": "textarea",
+              "minWords": 70,
+              "maxWords": 150,
+              "tooltip": "70-150 words. Opening sentence: '[Product] pricing model is designed for [use case].' Include: overview of pricing tiers, any discounts/promotions, how pricing differs from competitors, how it caters to customer needs. Incorporate relevant keywords for SEO."
+            },
+            {
+              "id": "pricing_footer",
+              "label": "Footer",
+              "type": "textarea",
+              "tooltip": "Optional. Additional information, disclosures, legal disclaimers, or further pricing details. Appears below the pricing table."
+            },
+            {
+              "id": "free_trial",
+              "label": "Free Trial Available?",
+              "type": "radio",
+              "options": ["Yes", "No"],
+              "tooltip": "Shown below the pricing table and on compare pages."
+            }
+          ]
+        },
+        {
+          "id": "pricing-list",
+          "label": "Section 3: Complete Pricing List",
+          "fields": [
+            {
+              "id": "pricing_list_file",
+              "label": "Pricing List File",
+              "type": "file",
+              "accept": ".pdf",
+              "maxSizeMB": 5,
+              "tooltip": "Upload a full pricing document if the pricing structure is too complex for the Basic Details fields alone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "label": "Features",
+      "featureCategories": [
+        {
+          "id": "automation-testing",
+          "label": "1. Automation Testing Features",
+          "subsections": [
+            {
+              "id": "automation-functionality",
+              "label": "Functionality",
+              "features": [
+                { "id": "test_feedback", "label": "Test Feedback", "description": "Provides developers with actionable insight after running tests" },
+                { "id": "test_history", "label": "Test History", "description": "Maintains a thorough history of test logs for future reference and analysis" },
+                { "id": "customization", "label": "Customization", "description": "Grants developers granular control to define tests and test parameters" },
+                { "id": "test_variety", "label": "Test Variety", "description": "Allows developers to automate a wide variety of test types according to need" }
+              ]
+            },
+            {
+              "id": "automation-automation",
+              "label": "Automation",
+              "features": [
+                { "id": "organization", "label": "Organization", "description": "Automatically assigns relevant follow-up tasks and notifies appropriate team members of status after testing" },
+                { "id": "reliability", "label": "Reliability", "description": "Runs tests automatically and reliably according to the parameters and frequency defined" },
+                { "id": "thoroughness", "label": "Thoroughness", "description": "Tests completely and thoroughly to minimize developer workload" }
+              ]
+            },
+            {
+              "id": "automation-agentic",
+              "label": "Agentic AI — Automation Testing",
+              "features": [
+                { "id": "autonomous_task_execution", "label": "Autonomous Task Execution", "description": "Capability to perform complex tasks without constant human input" },
+                { "id": "natural_language_interaction", "label": "Natural Language Interaction", "description": "Engages in human-like conversation for task delegation" },
+                { "id": "proactive_assistance", "label": "Proactive Assistance", "description": "Anticipates needs and offers suggestions without prompting" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "load-testing",
+          "label": "2. Load Testing Features",
+          "subsections": [
+            {
+              "id": "load-functionality",
+              "label": "Functionality",
+              "features": [
+                { "id": "stress_testing", "label": "Stress Testing", "description": "Tests software, websites, and servers by applying stress on all components" },
+                { "id": "extreme_cases", "label": "Extreme Cases", "description": "Pushes extreme situations to test high-use or high-impact components" },
+                { "id": "test_variety_load", "label": "Test Variety", "description": "Offers test variety from user experience to backend performance, and more" }
+              ]
+            },
+            {
+              "id": "load-reporting",
+              "label": "Reporting",
+              "features": [
+                { "id": "reporting_load", "label": "Reporting", "description": "Generates reports regarding load testing successes, failures, and concerns" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "test-management",
+          "label": "3. Test Management Features",
+          "subsections": [
+            {
+              "id": "tm-functionality",
+              "label": "Functionality",
+              "features": [
+                { "id": "test_repository", "label": "Test Repository", "description": "Build, collect, and store all necessary software tests and test cases in one location" },
+                { "id": "integration", "label": "Integration", "description": "Integrates with software testing tools and other development software" },
+                { "id": "test_diversity", "label": "Test Diversity", "description": "Supports multiple testing types (e.g., regression, smoke) and methods (e.g., integration, performance)" }
+              ]
+            },
+            {
+              "id": "tm-management",
+              "label": "Management",
+              "features": [
+                { "id": "reporting_tm", "label": "Reporting", "description": "Deliver reporting and metrics around test cases, uses, and results" },
+                { "id": "version_control", "label": "Version Control", "description": "Retain previous versions of tests and test cases" },
+                { "id": "scaling", "label": "Scaling", "description": "Scale to handling thousands of tests, cases, and users without loss of functionality or efficiency" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-software-testing",
+          "label": "4. AI Software Testing Tools",
+          "subsections": [
+            {
+              "id": "ai-generation",
+              "label": "AI Test Generation & Authoring",
+              "features": [
+                { "id": "ui_test_generation", "label": "UI-Based Test Generation", "description": "Effectively creates tests by recording or analyzing user interface interactions" },
+                { "id": "nl_test_creation", "label": "Natural Language Test Creation", "description": "Accurately translates plain-language descriptions into functional tests" },
+                { "id": "test_coverage_suggestions", "label": "Test Coverage Suggestions", "description": "Provides AI-driven recommendations for improving test coverage" }
+              ]
+            },
+            {
+              "id": "ai-maintenance",
+              "label": "Test Maintenance & Resilience",
+              "features": [
+                { "id": "self_healing", "label": "Self-healing", "description": "Tests effectively self-heal to adapt to changes in the application" },
+                { "id": "dynamic_locators", "label": "Dynamic Element Locators", "description": "Identifies application elements even after their properties change" },
+                { "id": "ai_maintenance", "label": "AI-Powered Test Maintenance", "description": "Reduces the time and effort required to maintain existing test suites via AI" }
+              ]
+            },
+            {
+              "id": "ai-execution",
+              "label": "Execution & Analytics",
+              "features": [
+                { "id": "intelligent_reporting", "label": "Intelligent Reporting", "description": "Provides insightful dashboards and reports for understanding test results and overall application quality" },
+                { "id": "visual_anomaly", "label": "Visual Anomaly Detection", "description": "AI accurately identifies unintended visual changes or bugs in the user interface" },
+                { "id": "root_cause_analysis", "label": "Root Cause Analysis", "description": "Analysis clearly pinpoints the root cause of test failures" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "software-testing",
+          "label": "5. Software Testing Features",
+          "subsections": [
+            {
+              "id": "st-agentic",
+              "label": "Agentic AI — Software Testing",
+              "features": [
+                { "id": "st_autonomous_task_execution", "label": "Autonomous Task Execution", "description": "Capability to perform complex tasks without constant human input" },
+                { "id": "st_natural_language_interaction", "label": "Natural Language Interaction", "description": "Engages in human-like conversation for task delegation" },
+                { "id": "st_proactive_assistance", "label": "Proactive Assistance", "description": "Anticipates needs and offers suggestions without prompting" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sap-store",
+          "label": "6. SAP Store Features",
+          "subsections": [
+            {
+              "id": "sap-agentic",
+              "label": "Agentic AI — SAP Store",
+              "features": [
+                { "id": "sap_autonomous_task_execution", "label": "Autonomous Task Execution", "description": "Capability to perform complex tasks without constant human input" },
+                { "id": "sap_multi_step_planning", "label": "Multi-step Planning", "description": "Ability to break down and plan multi-step processes" },
+                { "id": "sap_cross_system_integration", "label": "Cross-system Integration", "description": "Works across multiple software systems or databases" },
+                { "id": "sap_adaptive_learning", "label": "Adaptive Learning", "description": "Improves performance based on feedback and experience" },
+                { "id": "sap_natural_language_interaction", "label": "Natural Language Interaction", "description": "Engages in human-like conversation for task delegation" },
+                { "id": "sap_proactive_assistance", "label": "Proactive Assistance", "description": "Anticipates needs and offers suggestions without prompting" },
+                { "id": "sap_decision_making", "label": "Decision Making", "description": "Makes informed choices based on available data and objectives" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service-virtualization",
+          "label": "7. Service Virtualization Features",
+          "subsections": [
+            {
+              "id": "sv-functionality",
+              "label": "Functionality",
+              "features": [
+                { "id": "sv_test_coverage", "label": "Test Coverage", "description": "Deploys a broad solution suitable for many types of formats" },
+                { "id": "sv_system_capture", "label": "System Capture", "description": "Accurately captures system behavior for relevant simulation" },
+                { "id": "sv_false_positives", "label": "False Positives", "description": "Minimizes the occurrence of false positives when testing" },
+                { "id": "sv_simulation_quality", "label": "Simulation Quality", "description": "Simulates robust and realistic build environments" }
+              ]
+            },
+            {
+              "id": "sv-usability",
+              "label": "Usability",
+              "features": [
+                { "id": "sv_remediation", "label": "Remediation Suggestions", "description": "Automatically detects changes in services and suggests remediation and test actions" },
+                { "id": "sv_collaboration", "label": "Collaboration", "description": "Empowers multiple QA testers, developers, and other team members to collaborate on testing" },
+                { "id": "sv_ease_of_config", "label": "Ease of Configuration", "description": "Allows users to easily set and configure complex test scenarios" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "slug": "tosca",
+    "displayName": "Tricentis Tosca",
+    "productPlaceholder": "Tosca",
+    "activeFeatureCategories": ["automation-testing", "ai-software-testing", "software-testing", "sap-store", "service-virtualization"]
+  },
+  "data": {
+    "profile_logo": "",
+    "grid_logo": "",
+    "what_is_product": "",
+    "languages_supported": [],
+    "software_type": [],
+    "cta_url": "",
+    "utm_campaign": "",
+    "utm_medium": "",
+    "utm_source": "",
+    "main_category": "",
+    "additional_categories": [],
+    "product_page_url": "https://www.tricentis.com/products/automate-continuous-testing-tosca",
+    "product_name": "Tricentis Tosca",
+    "seller_domain": "https://www.tricentis.com",
+    "year_founded": "2007",
+    "hq_location": "Vienna, Austria",
+    "twitter": "@Tricentis",
+    "seller_description": "",
+    "pricing_packages": [],
+    "pricing_description": "",
+    "pricing_footer": "",
+    "free_trial": "",
+    "pricing_list_file": "",
+    "features": {
+      "automation-testing": {
+        "test_feedback": "", "test_history": "", "customization": "", "test_variety": "",
+        "organization": "", "reliability": "", "thoroughness": "",
+        "autonomous_task_execution": "", "natural_language_interaction": "", "proactive_assistance": ""
+      },
+      "ai-software-testing": {
+        "ui_test_generation": "", "nl_test_creation": "", "test_coverage_suggestions": "",
+        "self_healing": "", "dynamic_locators": "", "ai_maintenance": "",
+        "intelligent_reporting": "", "visual_anomaly": "", "root_cause_analysis": ""
+      },
+      "software-testing": {
+        "st_autonomous_task_execution": "", "st_natural_language_interaction": "", "st_proactive_assistance": ""
+      },
+      "sap-store": {
+        "sap_autonomous_task_execution": "", "sap_multi_step_planning": "", "sap_cross_system_integration": "",
+        "sap_adaptive_learning": "", "sap_natural_language_interaction": "", "sap_proactive_assistance": "", "sap_decision_making": ""
+      },
+      "service-virtualization": {
+        "sv_test_coverage": "", "sv_system_capture": "", "sv_false_positives": "", "sv_simulation_quality": "",
+        "sv_remediation": "", "sv_collaboration": "", "sv_ease_of_config": ""
+      }
+    }
+  }
+}
