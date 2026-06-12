@@ -77,6 +77,18 @@ function setDirty(val) {
 
 // ── Save ───────────────────────────────────────────────────────────────────
 
+$('download-btn').addEventListener('click', () => {
+  if (!state.current) return;
+  const payload = { meta: state.current.meta, data: serializeForm() };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `product-${state.current.meta.slug}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
 saveBtn.addEventListener('click', async () => {
   if (!validateForm()) return;
   const payload = { meta: state.current.meta, data: serializeForm() };

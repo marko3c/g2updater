@@ -299,6 +299,19 @@ textarea { resize: vertical; min-height: 100px; }
   background: transparent; transition: background .2s;
 }
 .dirty-dot.dirty { background: #fbbf24; }
+#download-btn {
+  padding: 9px 18px;
+  background: transparent;
+  color: var(--c-chrome-t);
+  border: 1px solid rgba(224,231,255,.35);
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+#download-btn:hover { background: rgba(224,231,255,.1); border-color: rgba(224,231,255,.6); }
 #save-btn {
   padding: 9px 28px; background: var(--c-cta); color: #fff;
   border: none; border-radius: 5px;
