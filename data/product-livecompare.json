@@ -8,31 +8,87 @@
   "data": {
     "profile_logo": "",
     "grid_logo": "",
-    "what_is_product": "",
-    "languages_supported": [],
-    "software_type": [],
-    "cta_url": "",
-    "utm_campaign": "",
-    "utm_medium": "",
-    "utm_source": "",
-    "main_category": "",
-    "additional_categories": [],
-    "product_page_url": "https://www.tricentis.com/products/livecompare",
+    "what_is_product": "Tricentis LiveCompare is an AI-powered change intelligence platform designed to help SAP teams manage the risk and effort of delivering changes to SAP production systems. It is a type of SAP test impact analysis solution that helps SAP developers, testers, and operations teams identify exactly which components, processes, and integrations are at risk from a given change, enabling teams to focus testing effort where it matters most.\n\nLiveCompare continuously monitors SAP delivery pipelines and production systems, analyzing code changes, configuration updates, and landscape modifications to determine the optimal testing scope for each release. Its Risk AI engine considers system usage data, business process dependencies, SAP landscape structure, and integration points to generate an intelligent, evidence-based testing recommendation rather than requiring full regression testing for every change.\n\nKey capabilities include:\n- Real-time impact analysis identifying the minimal set of objects at risk from each change\n- ABAP unit test execution and code quality checks for custom SAP development\n- Automatic detection and reporting of configuration and master data changes\n- Security change monitoring to identify impacted roles and access capabilities before production\n- Support for all major SAP platforms including SAP ECC, S/4HANA, HCM, and CRM\n- Integration with SAP Activate methodology for structured transformation project support\n- Role-based dashboards for developers, operations staff, testers, and business stakeholders\n\nLiveCompare is designed for SAP-centric enterprises managing continuous SAP maintenance, large-scale S/4HANA transformation programs, or regular transport-based deployments where uncontrolled changes can disrupt critical business processes. Teams using LiveCompare can cut release testing scope by up to 85% while achieving full risk coverage across their SAP landscape.",
+    "languages_supported": ["English", "German"],
+    "software_type": ["On Premises", "Hosted (in the cloud)"],
+    "cta_url": "https://www.tricentis.com/explore-products/livecompare",
+    "utm_campaign": "tricentis-livecompare-g2",
+    "utm_medium": "referral",
+    "utm_source": "g2",
+    "main_category": "SAP Testing",
+    "additional_categories": ["Change Management", "Test Impact Analysis"],
+    "product_page_url": "https://www.tricentis.com/products/impact-analysis-livecompare",
     "product_name": "Tricentis LiveCompare",
     "seller_domain": "https://www.tricentis.com",
     "year_founded": "2007",
-    "hq_location": "Vienna, Austria",
+    "hq_location": "Austin, Texas",
     "twitter": "@Tricentis",
-    "seller_description": "",
+    "seller_description": "Tricentis is a global leader in enterprise software testing and quality engineering. Founded in 2007 and headquartered in Austin, Texas, Tricentis helps more than 3,000 customers — including many of the Global Fortune 500 — deliver software faster, with higher quality and lower risk. The Tricentis platform spans test automation, performance testing, test management, data integrity, quality intelligence, and digital validation across more than 160 enterprise technologies. Tricentis integrates with the tools teams already use, including Jira, Azure DevOps, SAP, Salesforce, Jenkins, and ServiceNow. Tricentis has been recognized as a Leader in the Gartner Magic Quadrant for Software Test Automation.",
     "pricing_packages": [],
-    "pricing_description": "",
-    "pricing_footer": "",
-    "free_trial": "",
+    "pricing_description": "Tricentis LiveCompare pricing is designed for SAP organizations managing continuous change delivery and large-scale SAP transformation programs. Pricing is based on the scope of the SAP landscape covered and the number of users requiring access to change intelligence and impact analysis capabilities. Enterprise packages are available for organizations running multiple SAP systems or undertaking S/4HANA migration programs. Contact Tricentis for pricing aligned with your SAP landscape size and delivery cadence.",
+    "pricing_footer": "For more pricing details, visit https://www.tricentis.com/products/impact-analysis-livecompare",
+    "free_trial": "No",
     "pricing_list_file": "",
     "features": {
+      "automation-testing": {
+        "test_feedback": "",
+        "test_history": "",
+        "customization": "",
+        "test_variety": "",
+        "organization": "",
+        "reliability": "",
+        "thoroughness": "",
+        "autonomous_task_execution": "",
+        "natural_language_interaction": "",
+        "proactive_assistance": ""
+      },
+      "load-testing": {
+        "stress_testing": "",
+        "extreme_cases": "",
+        "test_variety_load": "",
+        "reporting_load": ""
+      },
+      "test-management": {
+        "test_repository": "",
+        "integration": "",
+        "test_diversity": "",
+        "reporting_tm": "",
+        "version_control": "",
+        "scaling": ""
+      },
+      "ai-software-testing": {
+        "ui_test_generation": "",
+        "nl_test_creation": "",
+        "test_coverage_suggestions": "",
+        "self_healing": "",
+        "dynamic_locators": "",
+        "ai_maintenance": "",
+        "intelligent_reporting": "",
+        "visual_anomaly": "",
+        "root_cause_analysis": ""
+      },
+      "software-testing": {
+        "st_autonomous_task_execution": "",
+        "st_natural_language_interaction": "",
+        "st_proactive_assistance": ""
+      },
       "sap-store": {
-        "sap_autonomous_task_execution": "", "sap_multi_step_planning": "", "sap_cross_system_integration": "",
-        "sap_adaptive_learning": "", "sap_natural_language_interaction": "", "sap_proactive_assistance": "", "sap_decision_making": ""
+        "sap_autonomous_task_execution": "Native",
+        "sap_multi_step_planning": "Native",
+        "sap_cross_system_integration": "Native",
+        "sap_adaptive_learning": "Native",
+        "sap_natural_language_interaction": "Not Available",
+        "sap_proactive_assistance": "Native",
+        "sap_decision_making": "Native"
+      },
+      "service-virtualization": {
+        "sv_test_coverage": "",
+        "sv_system_capture": "",
+        "sv_false_positives": "",
+        "sv_simulation_quality": "",
+        "sv_remediation": "",
+        "sv_collaboration": "",
+        "sv_ease_of_config": ""
       }
     }
   }

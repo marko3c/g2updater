@@ -8,33 +8,87 @@
   "data": {
     "profile_logo": "",
     "grid_logo": "",
-    "what_is_product": "",
-    "languages_supported": [],
-    "software_type": [],
-    "cta_url": "",
-    "utm_campaign": "",
-    "utm_medium": "",
-    "utm_source": "",
-    "main_category": "",
-    "additional_categories": [],
+    "what_is_product": "Tricentis NeoLoad is a performance testing solution designed to help engineering teams validate the performance, scalability, and reliability of web applications, APIs, and microservices under realistic load conditions. It is a type of load and performance testing platform that helps QA engineers, developers, and performance specialists simulate large numbers of virtual users and measure application behavior under stress, peak load, and endurance scenarios.\n\nNeoLoad combines protocol-based and browser-based test generation to support a wide range of application architectures, from legacy monolithic systems to modern microservices and cloud-native applications. Teams can design tests using a codeless interface or script them in code, making the platform accessible to both technical and non-technical testers. The platform integrates with CI/CD pipelines to enable continuous performance testing as part of the software delivery workflow.\n\nKey capabilities include:\n- AI-powered agentic performance testing with a built-in AI chat interface for test creation and analysis\n- RealBrowser technology for browser-based load simulation that reflects real user experience\n- Performance testing as code with full CLI support for pipeline integration\n- Dynamic infrastructure provisioning for scalable cloud-based load generation\n- Comprehensive SAP coverage including GUI, Fiori, RFC, and IDoc protocols\n- Support for legacy systems through Remote Terminal Emulation\n- Automatic test script updates when applications change\n\nNeoLoad is particularly well suited for enterprises undergoing digital transformation, organizations with complex SAP landscapes, and DevOps teams looking to shift performance testing earlier in the development cycle. Results and analytics are surfaced through detailed dashboards and reports, giving teams actionable insight into bottlenecks, response times, error rates, and infrastructure resource consumption.",
+    "languages_supported": ["English", "German", "French", "Japanese", "Korean", "Spanish", "Portuguese"],
+    "software_type": ["Hosted (in the cloud)"],
+    "cta_url": "https://www.tricentis.com/software-testing-tool-trial-demo/neoload-trial",
+    "utm_campaign": "tricentis-neoload-g2",
+    "utm_medium": "referral",
+    "utm_source": "g2",
+    "main_category": "Load Testing",
+    "additional_categories": ["Performance Testing", "API Performance Testing"],
     "product_page_url": "https://www.tricentis.com/products/performance-testing-neoload",
     "product_name": "Tricentis NeoLoad",
     "seller_domain": "https://www.tricentis.com",
     "year_founded": "2007",
-    "hq_location": "Vienna, Austria",
+    "hq_location": "Austin, Texas",
     "twitter": "@Tricentis",
-    "seller_description": "",
+    "seller_description": "Tricentis is a global leader in enterprise software testing and quality engineering. Founded in 2007 and headquartered in Austin, Texas, Tricentis helps more than 3,000 customers — including many of the Global Fortune 500 — deliver software faster, with higher quality and lower risk. The Tricentis platform spans test automation, performance testing, test management, data integrity, quality intelligence, and digital validation across more than 160 enterprise technologies. Tricentis integrates with the tools teams already use, including Jira, Azure DevOps, SAP, Salesforce, Jenkins, and ServiceNow. Tricentis has been recognized as a Leader in the Gartner Magic Quadrant for Software Test Automation.",
     "pricing_packages": [],
-    "pricing_description": "",
-    "pricing_footer": "",
-    "free_trial": "",
+    "pricing_description": "NeoLoad pricing is designed for enterprise performance engineering teams. Pricing is based on the number of virtual users (VUs) and cloud load generator hours required for testing. Options include annual subscriptions for defined VU counts and usage packages for teams with variable testing needs. Enterprise agreements provide unlimited VUs, dedicated cloud infrastructure, advanced SAP performance testing capabilities, and premium support. Contact Tricentis for a custom quote based on your organization's scale and requirements.",
+    "pricing_footer": "For more pricing details and to request a quote, visit https://www.tricentis.com/products/performance-testing-neoload",
+    "free_trial": "Yes",
     "pricing_list_file": "",
     "features": {
+      "automation-testing": {
+        "test_feedback": "",
+        "test_history": "",
+        "customization": "",
+        "test_variety": "",
+        "organization": "",
+        "reliability": "",
+        "thoroughness": "",
+        "autonomous_task_execution": "",
+        "natural_language_interaction": "",
+        "proactive_assistance": ""
+      },
       "load-testing": {
-        "stress_testing": "",
-        "extreme_cases": "",
-        "test_variety_load": "",
-        "reporting_load": ""
+        "stress_testing": "Native",
+        "extreme_cases": "Native",
+        "test_variety_load": "Native",
+        "reporting_load": "Native"
+      },
+      "test-management": {
+        "test_repository": "",
+        "integration": "",
+        "test_diversity": "",
+        "reporting_tm": "",
+        "version_control": "",
+        "scaling": ""
+      },
+      "ai-software-testing": {
+        "ui_test_generation": "",
+        "nl_test_creation": "",
+        "test_coverage_suggestions": "",
+        "self_healing": "",
+        "dynamic_locators": "",
+        "ai_maintenance": "",
+        "intelligent_reporting": "",
+        "visual_anomaly": "",
+        "root_cause_analysis": ""
+      },
+      "software-testing": {
+        "st_autonomous_task_execution": "",
+        "st_natural_language_interaction": "",
+        "st_proactive_assistance": ""
+      },
+      "sap-store": {
+        "sap_autonomous_task_execution": "",
+        "sap_multi_step_planning": "",
+        "sap_cross_system_integration": "",
+        "sap_adaptive_learning": "",
+        "sap_natural_language_interaction": "",
+        "sap_proactive_assistance": "",
+        "sap_decision_making": ""
+      },
+      "service-virtualization": {
+        "sv_test_coverage": "",
+        "sv_system_capture": "",
+        "sv_false_positives": "",
+        "sv_simulation_quality": "",
+        "sv_remediation": "",
+        "sv_collaboration": "",
+        "sv_ease_of_config": ""
       }
     }
   }

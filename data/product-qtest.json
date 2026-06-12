@@ -8,31 +8,87 @@
   "data": {
     "profile_logo": "",
     "grid_logo": "",
-    "what_is_product": "",
-    "languages_supported": [],
-    "software_type": [],
-    "cta_url": "",
-    "utm_campaign": "",
-    "utm_medium": "",
-    "utm_source": "",
-    "main_category": "",
-    "additional_categories": [],
+    "what_is_product": "Tricentis qTest is an AI-driven test management platform designed to help enterprise organizations centralize, standardize, and scale their software testing operations. It is a type of test management solution that helps QA teams, project managers, and development leads plan, track, and report on testing activities across Agile, waterfall, and hybrid delivery methodologies.\n\nqTest provides a centralized repository for test cases, test plans, and test execution results, enabling teams to maintain visibility and control over testing across large, distributed projects. It integrates with the leading ALM, CI/CD, and defect management tools used across enterprise software delivery pipelines, including Jira, Azure DevOps, Jenkins, Bamboo, and Cucumber.\n\nKey capabilities include:\n- AI-powered agentic test creation that autonomously builds and reuses test cases from requirements\n- Test case management supporting structured, exploratory, and automated test types\n- DevOps-native workflow integration for event-driven, automated testing processes\n- Exploratory testing with built-in recording, annotation, and session management\n- Customizable dashboards and analytics for quality metrics, test coverage, and sprint velocity\n- Automated test orchestration and execution host management\n- Scaling to support thousands of test cases, multiple projects, and large distributed teams\n\nqTest is well suited for enterprise QA organizations transitioning from legacy test management tools, teams implementing AI-assisted quality practices, and organizations that need a single source of truth for testing across complex programs. Its reporting and analytics capabilities give program managers and quality leads the visibility needed to make informed decisions about release readiness and quality risk throughout the development lifecycle.",
+    "languages_supported": ["English"],
+    "software_type": ["Hosted (in the cloud)"],
+    "cta_url": "https://www.tricentis.com/software-testing-tool-trial-demo/qtest-trial",
+    "utm_campaign": "tricentis-qtest-g2",
+    "utm_medium": "referral",
+    "utm_source": "g2",
+    "main_category": "Test Management",
+    "additional_categories": ["Test Case Management", "Quality Management Software"],
     "product_page_url": "https://www.tricentis.com/products/unified-test-management-qtest",
     "product_name": "Tricentis qTest",
     "seller_domain": "https://www.tricentis.com",
     "year_founded": "2007",
-    "hq_location": "Vienna, Austria",
+    "hq_location": "Austin, Texas",
     "twitter": "@Tricentis",
-    "seller_description": "",
+    "seller_description": "Tricentis is a global leader in enterprise software testing and quality engineering. Founded in 2007 and headquartered in Austin, Texas, Tricentis helps more than 3,000 customers — including many of the Global Fortune 500 — deliver software faster, with higher quality and lower risk. The Tricentis platform spans test automation, performance testing, test management, data integrity, quality intelligence, and digital validation across more than 160 enterprise technologies. Tricentis integrates with the tools teams already use, including Jira, Azure DevOps, SAP, Salesforce, Jenkins, and ServiceNow. Tricentis has been recognized as a Leader in the Gartner Magic Quadrant for Software Test Automation.",
     "pricing_packages": [],
-    "pricing_description": "",
-    "pricing_footer": "",
-    "free_trial": "",
+    "pricing_description": "Tricentis qTest pricing is designed for enterprise testing organizations seeking centralized test management at scale. Pricing is based on the number of users and modules selected, including test case management, exploratory testing, analytics, and DevOps integrations. Enterprise agreements support unlimited projects, custom workflows, and dedicated onboarding and support resources. qTest integrates with most major development tools at no additional connector cost. Contact Tricentis for a custom pricing proposal.",
+    "pricing_footer": "For more pricing details, visit https://www.tricentis.com/products/unified-test-management-qtest",
+    "free_trial": "Yes",
     "pricing_list_file": "",
     "features": {
+      "automation-testing": {
+        "test_feedback": "",
+        "test_history": "",
+        "customization": "",
+        "test_variety": "",
+        "organization": "",
+        "reliability": "",
+        "thoroughness": "",
+        "autonomous_task_execution": "",
+        "natural_language_interaction": "",
+        "proactive_assistance": ""
+      },
+      "load-testing": {
+        "stress_testing": "",
+        "extreme_cases": "",
+        "test_variety_load": "",
+        "reporting_load": ""
+      },
       "test-management": {
-        "test_repository": "", "integration": "", "test_diversity": "",
-        "reporting_tm": "", "version_control": "", "scaling": ""
+        "test_repository": "Native",
+        "integration": "Native",
+        "test_diversity": "Native",
+        "reporting_tm": "Native",
+        "version_control": "Native",
+        "scaling": "Native"
+      },
+      "ai-software-testing": {
+        "ui_test_generation": "",
+        "nl_test_creation": "",
+        "test_coverage_suggestions": "",
+        "self_healing": "",
+        "dynamic_locators": "",
+        "ai_maintenance": "",
+        "intelligent_reporting": "",
+        "visual_anomaly": "",
+        "root_cause_analysis": ""
+      },
+      "software-testing": {
+        "st_autonomous_task_execution": "",
+        "st_natural_language_interaction": "",
+        "st_proactive_assistance": ""
+      },
+      "sap-store": {
+        "sap_autonomous_task_execution": "",
+        "sap_multi_step_planning": "",
+        "sap_cross_system_integration": "",
+        "sap_adaptive_learning": "",
+        "sap_natural_language_interaction": "",
+        "sap_proactive_assistance": "",
+        "sap_decision_making": ""
+      },
+      "service-virtualization": {
+        "sv_test_coverage": "",
+        "sv_system_capture": "",
+        "sv_false_positives": "",
+        "sv_simulation_quality": "",
+        "sv_remediation": "",
+        "sv_collaboration": "",
+        "sv_ease_of_config": ""
       }
     }
   }

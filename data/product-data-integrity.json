@@ -29,6 +29,67 @@
     "pricing_footer": "For more pricing details, visit https://www.tricentis.com/products/data-integrity",
     "free_trial": "No",
     "pricing_list_file": "",
-    "features": {}
+    "features": {
+      "automation-testing": {
+        "test_feedback": "",
+        "test_history": "",
+        "customization": "",
+        "test_variety": "",
+        "organization": "",
+        "reliability": "",
+        "thoroughness": "",
+        "autonomous_task_execution": "",
+        "natural_language_interaction": "",
+        "proactive_assistance": ""
+      },
+      "load-testing": {
+        "stress_testing": "",
+        "extreme_cases": "",
+        "test_variety_load": "",
+        "reporting_load": ""
+      },
+      "test-management": {
+        "test_repository": "",
+        "integration": "",
+        "test_diversity": "",
+        "reporting_tm": "",
+        "version_control": "",
+        "scaling": ""
+      },
+      "ai-software-testing": {
+        "ui_test_generation": "",
+        "nl_test_creation": "",
+        "test_coverage_suggestions": "",
+        "self_healing": "",
+        "dynamic_locators": "",
+        "ai_maintenance": "",
+        "intelligent_reporting": "",
+        "visual_anomaly": "",
+        "root_cause_analysis": ""
+      },
+      "software-testing": {
+        "st_autonomous_task_execution": "",
+        "st_natural_language_interaction": "",
+        "st_proactive_assistance": ""
+      },
+      "sap-store": {
+        "sap_autonomous_task_execution": "",
+        "sap_multi_step_planning": "",
+        "sap_cross_system_integration": "",
+        "sap_adaptive_learning": "",
+        "sap_natural_language_interaction": "",
+        "sap_proactive_assistance": "",
+        "sap_decision_making": ""
+      },
+      "service-virtualization": {
+        "sv_test_coverage": "",
+        "sv_system_capture": "",
+        "sv_false_positives": "",
+        "sv_simulation_quality": "",
+        "sv_remediation": "",
+        "sv_collaboration": "",
+        "sv_ease_of_config": ""
+      }
+    }
   }
 }

@@ -8,40 +8,87 @@
   "data": {
     "profile_logo": "",
     "grid_logo": "",
-    "what_is_product": "",
-    "languages_supported": [],
-    "software_type": [],
-    "cta_url": "",
-    "utm_campaign": "",
-    "utm_medium": "",
-    "utm_source": "",
-    "main_category": "",
-    "additional_categories": [],
+    "what_is_product": "Tricentis Testim Mobile is a cloud-based mobile application testing solution that enables teams to automate testing for native iOS and Android apps, as well as hybrid applications and cross-platform frameworks including React Native and Flutter. It is a type of mobile test automation platform that helps development and QA teams author, execute, and maintain mobile tests faster using AI-powered element recognition and a cloud-hosted virtual device grid.\n\nTestim Mobile allows testers to record tests by interacting with real devices or virtual emulators and simulators, without writing or maintaining Appium, Espresso, or XCUITest scripts. Its proprietary AI technology understands the structure of mobile applications and identifies UI elements reliably, helping tests remain stable as apps are updated over time.\n\nKey capabilities include:\n- Codeless test authoring through visual recording on physical or virtual devices\n- Virtual Mobile Grid providing cloud access to iOS simulators and Android emulators\n- Support for native, hybrid, React Native, and Flutter applications from a unified platform\n- iOS device support from Windows machines via the Tricentis Mobile Agent, eliminating Mac requirements\n- CI/CD pipeline integration for continuous mobile testing and release gating\n- Test dashboards aggregating failures with console and network logs at each test step\n- Shared cloud app repository for team-wide access to applications under test\n\nTestim Mobile is designed for mobile development teams that need reliable, scalable automation without the complexity of managing physical device labs or maintaining low-level scripts. It integrates with Tricentis Testim's web testing capabilities, enabling teams to manage both web and mobile test automation from a single, unified platform.",
+    "languages_supported": ["English", "German", "French", "Japanese"],
+    "software_type": ["Hosted (in the cloud)"],
+    "cta_url": "https://app.testim.io",
+    "utm_campaign": "tricentis-testim-mobile-g2",
+    "utm_medium": "referral",
+    "utm_source": "g2",
+    "main_category": "Mobile Testing",
+    "additional_categories": ["Test Automation", "AI Testing Tools"],
     "product_page_url": "https://www.tricentis.com/products/testim-mobile",
     "product_name": "Tricentis Testim Mobile",
     "seller_domain": "https://www.tricentis.com",
     "year_founded": "2007",
-    "hq_location": "Vienna, Austria",
+    "hq_location": "Austin, Texas",
     "twitter": "@Tricentis",
-    "seller_description": "",
+    "seller_description": "Tricentis is a global leader in enterprise software testing and quality engineering. Founded in 2007 and headquartered in Austin, Texas, Tricentis helps more than 3,000 customers — including many of the Global Fortune 500 — deliver software faster, with higher quality and lower risk. The Tricentis platform spans test automation, performance testing, test management, data integrity, quality intelligence, and digital validation across more than 160 enterprise technologies. Tricentis integrates with the tools teams already use, including Jira, Azure DevOps, SAP, Salesforce, Jenkins, and ServiceNow. Tricentis has been recognized as a Leader in the Gartner Magic Quadrant for Software Test Automation.",
     "pricing_packages": [],
-    "pricing_description": "",
-    "pricing_footer": "",
-    "free_trial": "",
+    "pricing_description": "Testim Mobile pricing is designed for mobile development teams requiring scalable, cloud-based test automation. Plans are available for small teams and enterprise organizations, with pricing based on concurrent test execution capacity and virtual device access. Enterprise agreements include priority support, advanced analytics, and dedicated cloud execution infrastructure. Testim Mobile can be bundled with Tricentis Testim for teams testing both web and mobile applications. Contact Tricentis for enterprise pricing.",
+    "pricing_footer": "For pricing details, visit https://www.tricentis.com/products/testim-mobile or request a demo.",
+    "free_trial": "Yes",
     "pricing_list_file": "",
-    "features": {
+        "features": {
       "automation-testing": {
-        "test_feedback": "", "test_history": "", "customization": "", "test_variety": "",
-        "organization": "", "reliability": "", "thoroughness": "",
-        "autonomous_task_execution": "", "natural_language_interaction": "", "proactive_assistance": ""
+        "test_feedback": "Native",
+        "test_history": "Native",
+        "customization": "Native",
+        "test_variety": "Native",
+        "organization": "Native",
+        "reliability": "Native",
+        "thoroughness": "Native",
+        "autonomous_task_execution": "Custom Code",
+        "natural_language_interaction": "Custom Code",
+        "proactive_assistance": "Not Available"
+      },
+      "load-testing": {
+        "stress_testing": "",
+        "extreme_cases": "",
+        "test_variety_load": "",
+        "reporting_load": ""
+      },
+      "test-management": {
+        "test_repository": "",
+        "integration": "",
+        "test_diversity": "",
+        "reporting_tm": "",
+        "version_control": "",
+        "scaling": ""
       },
       "ai-software-testing": {
-        "ui_test_generation": "", "nl_test_creation": "", "test_coverage_suggestions": "",
-        "self_healing": "", "dynamic_locators": "", "ai_maintenance": "",
-        "intelligent_reporting": "", "visual_anomaly": "", "root_cause_analysis": ""
+        "ui_test_generation": "Native",
+        "nl_test_creation": "Custom Code",
+        "test_coverage_suggestions": "Native",
+        "self_healing": "Native",
+        "dynamic_locators": "Native",
+        "ai_maintenance": "Native",
+        "intelligent_reporting": "Native",
+        "visual_anomaly": "Not Available",
+        "root_cause_analysis": "Native"
       },
       "software-testing": {
-        "st_autonomous_task_execution": "", "st_natural_language_interaction": "", "st_proactive_assistance": ""
+        "st_autonomous_task_execution": "Custom Code",
+        "st_natural_language_interaction": "Custom Code",
+        "st_proactive_assistance": "Not Available"
+      },
+      "sap-store": {
+        "sap_autonomous_task_execution": "",
+        "sap_multi_step_planning": "",
+        "sap_cross_system_integration": "",
+        "sap_adaptive_learning": "",
+        "sap_natural_language_interaction": "",
+        "sap_proactive_assistance": "",
+        "sap_decision_making": ""
+      },
+      "service-virtualization": {
+        "sv_test_coverage": "",
+        "sv_system_capture": "",
+        "sv_false_positives": "",
+        "sv_simulation_quality": "",
+        "sv_remediation": "",
+        "sv_collaboration": "",
+        "sv_ease_of_config": ""
       }
     }
   }

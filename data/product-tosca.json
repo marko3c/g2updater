@@ -3,53 +3,113 @@
     "slug": "tosca",
     "displayName": "Tricentis Tosca",
     "productPlaceholder": "Tosca",
-    "activeFeatureCategories": ["automation-testing", "ai-software-testing", "software-testing", "sap-store", "service-virtualization"]
+    "activeFeatureCategories": [
+      "automation-testing",
+      "ai-software-testing",
+      "software-testing",
+      "sap-store",
+      "service-virtualization"
+    ]
   },
   "data": {
     "profile_logo": "",
     "grid_logo": "",
-    "what_is_product": "",
-    "languages_supported": [],
-    "software_type": [],
-    "cta_url": "",
-    "utm_campaign": "",
-    "utm_medium": "",
-    "utm_source": "",
-    "main_category": "",
-    "additional_categories": [],
+    "what_is_product": "Tricentis Tosca is an AI-powered test automation platform that enables enterprise organizations to achieve continuous testing across complex, multi-application landscapes. It is a type of end-to-end test automation solution that helps teams validate software quality across functional, regression, API, UI, accessibility, and performance test types from a unified platform.\n\nTosca supports codeless test automation across more than 160 enterprise technologies, including SAP, Salesforce, Oracle, ServiceNow, Workday, Snowflake, and a broad range of web, desktop, and mobile applications. Its model-based approach abstracts test logic from the underlying application interface, making tests more resilient to application changes and reducing maintenance overhead across large test suites.\n\nKey capabilities include:\n- Agentic test automation that builds complete test cases from natural language using AI\n- Risk-based test optimization that prioritizes testing effort based on business impact\n- Cloud-native execution grid for parallel, distributed test runs at scale\n- Test data management with synthetic and masked data provisioning\n- API simulation and service virtualization to enable testing in incomplete or unavailable environments\n- Integrated support for SAP migrations, cloud transitions, and application modernization initiatives\n- Elastic cloud execution grid for parallel testing at enterprise scale\n\nTosca is designed for enterprise QA teams managing large-scale test automation programs and organizations undergoing SAP S/4HANA migrations or other complex transformation projects. It connects with ALM tools, CI/CD pipelines, defect management systems, and monitoring platforms through a broad ecosystem of integrations, and provides analytics and reporting capabilities that give stakeholders visibility into test coverage, execution status, and quality trends across the entire delivery lifecycle.",
+    "languages_supported": [
+      "English",
+      "German",
+      "French",
+      "Japanese",
+      "Korean",
+      "Spanish",
+      "Portuguese"
+    ],
+    "software_type": [
+      "On Premises",
+      "Hosted (in the cloud)"
+    ],
+    "cta_url": "https://www.tricentis.com/software-testing-tool-trial-demo/tosca-trial",
+    "utm_campaign": "tricentis-tosca-g2",
+    "utm_medium": "referral",
+    "utm_source": "g2",
+    "main_category": "Test Automation",
+    "additional_categories": [
+      "Continuous Testing",
+      "API Testing",
+      "Service Virtualization Software"
+    ],
     "product_page_url": "https://www.tricentis.com/products/automate-continuous-testing-tosca",
     "product_name": "Tricentis Tosca",
     "seller_domain": "https://www.tricentis.com",
     "year_founded": "2007",
-    "hq_location": "Vienna, Austria",
+    "hq_location": "Austin, Texas",
     "twitter": "@Tricentis",
-    "seller_description": "",
+    "seller_description": "Tricentis is a global leader in enterprise software testing and quality engineering. Founded in 2007 and headquartered in Austin, Texas, Tricentis helps more than 3,000 customers — including many of the Global Fortune 500 — deliver software faster, with higher quality and lower risk. The Tricentis platform spans test automation, performance testing, test management, data integrity, quality intelligence, and digital validation across more than 160 enterprise technologies. Tricentis integrates with the tools teams already use, including Jira, Azure DevOps, SAP, Salesforce, Jenkins, and ServiceNow. Tricentis has been recognized as a Leader in the Gartner Magic Quadrant for Software Test Automation.",
     "pricing_packages": [],
-    "pricing_description": "",
-    "pricing_footer": "",
-    "free_trial": "",
+    "pricing_description": "Tricentis Tosca pricing is designed for enterprise organizations with complex, multi-technology testing environments. Tosca is available through annual subscription and enterprise licensing agreements, with pricing based on the number of users, modules required, and testing scope. Packages range from departmental deployments to enterprise-wide programs spanning hundreds of applications. SAP-specific modules, cloud execution grid capacity, and test data management are available as add-ons. Contact Tricentis for a custom quote.",
+    "pricing_footer": "For more pricing details and to request a quote, visit https://www.tricentis.com/products/automate-continuous-testing-tosca",
+    "free_trial": "Yes",
     "pricing_list_file": "",
     "features": {
       "automation-testing": {
-        "test_feedback": "", "test_history": "", "customization": "", "test_variety": "",
-        "organization": "", "reliability": "", "thoroughness": "",
-        "autonomous_task_execution": "", "natural_language_interaction": "", "proactive_assistance": ""
+        "test_feedback": "Native",
+        "test_history": "Native",
+        "customization": "Native",
+        "test_variety": "Native",
+        "organization": "Native",
+        "reliability": "Native",
+        "thoroughness": "Native",
+        "autonomous_task_execution": "Native",
+        "natural_language_interaction": "Native",
+        "proactive_assistance": "Native"
+      },
+      "load-testing": {
+        "stress_testing": "",
+        "extreme_cases": "",
+        "test_variety_load": "",
+        "reporting_load": ""
+      },
+      "test-management": {
+        "test_repository": "",
+        "integration": "",
+        "test_diversity": "",
+        "reporting_tm": "",
+        "version_control": "",
+        "scaling": ""
       },
       "ai-software-testing": {
-        "ui_test_generation": "", "nl_test_creation": "", "test_coverage_suggestions": "",
-        "self_healing": "", "dynamic_locators": "", "ai_maintenance": "",
-        "intelligent_reporting": "", "visual_anomaly": "", "root_cause_analysis": ""
+        "ui_test_generation": "Native",
+        "nl_test_creation": "Native",
+        "test_coverage_suggestions": "Native",
+        "self_healing": "Native",
+        "dynamic_locators": "Native",
+        "ai_maintenance": "Native",
+        "intelligent_reporting": "Native",
+        "visual_anomaly": "Third Party",
+        "root_cause_analysis": "Native"
       },
       "software-testing": {
-        "st_autonomous_task_execution": "", "st_natural_language_interaction": "", "st_proactive_assistance": ""
+        "st_autonomous_task_execution": "Native",
+        "st_natural_language_interaction": "Native",
+        "st_proactive_assistance": "Native"
       },
       "sap-store": {
-        "sap_autonomous_task_execution": "", "sap_multi_step_planning": "", "sap_cross_system_integration": "",
-        "sap_adaptive_learning": "", "sap_natural_language_interaction": "", "sap_proactive_assistance": "", "sap_decision_making": ""
+        "sap_autonomous_task_execution": "Native",
+        "sap_multi_step_planning": "Native",
+        "sap_cross_system_integration": "Native",
+        "sap_adaptive_learning": "Native",
+        "sap_natural_language_interaction": "Native",
+        "sap_proactive_assistance": "Native",
+        "sap_decision_making": "Native"
       },
       "service-virtualization": {
-        "sv_test_coverage": "", "sv_system_capture": "", "sv_false_positives": "", "sv_simulation_quality": "",
-        "sv_remediation": "", "sv_collaboration": "", "sv_ease_of_config": ""
+        "sv_test_coverage": "Native",
+        "sv_system_capture": "Native",
+        "sv_false_positives": "Native",
+        "sv_simulation_quality": "Native",
+        "sv_remediation": "Native",
+        "sv_collaboration": "Native",
+        "sv_ease_of_config": "Native"
       }
     }
   }

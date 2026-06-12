@@ -8,40 +8,87 @@
   "data": {
     "profile_logo": "",
     "grid_logo": "",
-    "what_is_product": "",
-    "languages_supported": [],
-    "software_type": [],
-    "cta_url": "",
-    "utm_campaign": "",
-    "utm_medium": "",
-    "utm_source": "",
-    "main_category": "",
-    "additional_categories": [],
-    "product_page_url": "https://www.tricentis.com/products/testim",
+    "what_is_product": "Tricentis Testim is an AI-powered test automation solution designed for teams building and maintaining automated tests for web, Salesforce, and mobile applications. It is a type of software test automation platform that helps development and QA teams author, execute, and maintain tests faster through AI-driven test generation, self-healing locators, and cloud-based execution infrastructure.\n\nTestim uses machine learning to identify and interact with UI elements reliably, even as application interfaces evolve over time. Its AI-powered locator technology reduces test flakiness and lowers the cost of test maintenance by automatically adapting tests when underlying application elements change. Teams can create tests through visual recording, natural language input via Testim Copilot, or by writing custom JavaScript steps.\n\nKey capabilities include:\n- Agentic test automation that builds complete test cases from natural language descriptions\n- Testim Copilot for generating and debugging custom test steps using generative AI\n- Self-healing AI locators that automatically adapt to application changes\n- Cloud execution grid for parallel test runs across browsers and environments\n- Optimized support for Salesforce Lightning with pre-built components and metadata-based locators\n- Root cause analysis tools to diagnose test failures quickly\n- CI/CD integrations with Jenkins, GitHub Actions, and other pipeline tools\n\nTestim is well suited for Agile development teams that need to maintain fast feedback loops, Salesforce organizations requiring reliable automated testing, and QA engineers looking to reduce time spent on test maintenance. It operates as a SaaS platform with a freemium tier, eliminating the need for infrastructure management and allowing teams to get started with no upfront commitment.",
+    "languages_supported": ["English", "German", "French", "Japanese"],
+    "software_type": ["Hosted (in the cloud)"],
+    "cta_url": "https://app.testim.io",
+    "utm_campaign": "tricentis-testim-g2",
+    "utm_medium": "referral",
+    "utm_source": "g2",
+    "main_category": "Test Automation",
+    "additional_categories": ["AI Testing Tools", "Salesforce Testing", "Continuous Testing"],
+    "product_page_url": "https://www.tricentis.com/products/test-automation-web-apps-testim",
     "product_name": "Tricentis Testim",
     "seller_domain": "https://www.tricentis.com",
     "year_founded": "2007",
-    "hq_location": "Vienna, Austria",
+    "hq_location": "Austin, Texas",
     "twitter": "@Tricentis",
-    "seller_description": "",
+    "seller_description": "Tricentis is a global leader in enterprise software testing and quality engineering. Founded in 2007 and headquartered in Austin, Texas, Tricentis helps more than 3,000 customers — including many of the Global Fortune 500 — deliver software faster, with higher quality and lower risk. The Tricentis platform spans test automation, performance testing, test management, data integrity, quality intelligence, and digital validation across more than 160 enterprise technologies. Tricentis integrates with the tools teams already use, including Jira, Azure DevOps, SAP, Salesforce, Jenkins, and ServiceNow. Tricentis has been recognized as a Leader in the Gartner Magic Quadrant for Software Test Automation.",
     "pricing_packages": [],
-    "pricing_description": "",
-    "pricing_footer": "",
-    "free_trial": "",
+    "pricing_description": "Testim pricing is designed to support teams of all sizes, from individual developers to large enterprise QA organizations. A free tier is available for teams getting started with AI-powered test automation. Paid plans scale based on the number of test runs and team members, with enterprise options providing unlimited execution, dedicated support, and advanced Salesforce testing capabilities. Annual and monthly billing options are available. Start free at app.testim.io or contact Tricentis for enterprise pricing.",
+    "pricing_footer": "Get started free at https://app.testim.io or request enterprise pricing at https://www.tricentis.com/products/test-automation-web-apps-testim",
+    "free_trial": "Yes",
     "pricing_list_file": "",
-    "features": {
+        "features": {
       "automation-testing": {
-        "test_feedback": "", "test_history": "", "customization": "", "test_variety": "",
-        "organization": "", "reliability": "", "thoroughness": "",
-        "autonomous_task_execution": "", "natural_language_interaction": "", "proactive_assistance": ""
+        "test_feedback": "Native",
+        "test_history": "Native",
+        "customization": "Native",
+        "test_variety": "Native",
+        "organization": "Native",
+        "reliability": "Native",
+        "thoroughness": "Native",
+        "autonomous_task_execution": "Native",
+        "natural_language_interaction": "Native",
+        "proactive_assistance": "Native"
+      },
+      "load-testing": {
+        "stress_testing": "",
+        "extreme_cases": "",
+        "test_variety_load": "",
+        "reporting_load": ""
+      },
+      "test-management": {
+        "test_repository": "",
+        "integration": "",
+        "test_diversity": "",
+        "reporting_tm": "",
+        "version_control": "",
+        "scaling": ""
       },
       "ai-software-testing": {
-        "ui_test_generation": "", "nl_test_creation": "", "test_coverage_suggestions": "",
-        "self_healing": "", "dynamic_locators": "", "ai_maintenance": "",
-        "intelligent_reporting": "", "visual_anomaly": "", "root_cause_analysis": ""
+        "ui_test_generation": "Native",
+        "nl_test_creation": "Native",
+        "test_coverage_suggestions": "Native",
+        "self_healing": "Native",
+        "dynamic_locators": "Native",
+        "ai_maintenance": "Native",
+        "intelligent_reporting": "Native",
+        "visual_anomaly": "Not Available",
+        "root_cause_analysis": "Native"
       },
       "software-testing": {
-        "st_autonomous_task_execution": "", "st_natural_language_interaction": "", "st_proactive_assistance": ""
+        "st_autonomous_task_execution": "Native",
+        "st_natural_language_interaction": "Native",
+        "st_proactive_assistance": "Native"
+      },
+      "sap-store": {
+        "sap_autonomous_task_execution": "",
+        "sap_multi_step_planning": "",
+        "sap_cross_system_integration": "",
+        "sap_adaptive_learning": "",
+        "sap_natural_language_interaction": "",
+        "sap_proactive_assistance": "",
+        "sap_decision_making": ""
+      },
+      "service-virtualization": {
+        "sv_test_coverage": "",
+        "sv_system_capture": "",
+        "sv_false_positives": "",
+        "sv_simulation_quality": "",
+        "sv_remediation": "",
+        "sv_collaboration": "",
+        "sv_ease_of_config": ""
       }
     }
   }
