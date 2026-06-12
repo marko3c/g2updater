@@ -156,8 +156,21 @@ function buildFeaturesSection(section) {
     const hdr = mkEl('div', { className: 'feature-section-header' });
     const title = mkEl('span', { className: 'feature-section-title' }, cat.label);
     const inactive = mkEl('span', { className: 'feature-inactive-label' });
+    const activeLbl = mkEl('label', { className: 'feat-active-label' });
+    const activeChk = mkEl('input', { type: 'checkbox' });
+    activeChk.dataset.catId = cat.id;
+    activeLbl.append(activeChk, document.createTextNode(' Active on G2'));
+    activeLbl.addEventListener('click', e => e.stopPropagation());
+    activeChk.addEventListener('change', () => {
+      const isActive = activeChk.checked;
+      const cats = state.current.meta.activeFeatureCategories;
+      if (isActive) { if (!cats.includes(cat.id)) cats.push(cat.id); }
+      else { const i = cats.indexOf(cat.id); if (i > -1) cats.splice(i, 1); }
+      applyFeatureSectionState(wrap, isActive);
+      setDirty(true);
+    });
     const toggle = mkEl('span', { className: 'feature-section-toggle' }, '▾');
-    hdr.append(title, inactive, toggle);
+    hdr.append(title, inactive, activeLbl, toggle);
 
     hdr.addEventListener('click', () => {
       const body = wrap.querySelector('.feature-section-body');
@@ -463,6 +476,21 @@ function clearPackages(fieldId) {
   pkgCounter = 0;
 }
 
+// ── Feature section state ──────────────────────────────────────────────────
+
+function applyFeatureSectionState(wrap, active) {
+  const body = wrap.querySelector('.feature-section-body');
+  const inactive = wrap.querySelector('.feature-inactive-label');
+  const toggle = wrap.querySelector('.feature-section-toggle');
+  const chk = wrap.querySelector('input[type="checkbox"][data-cat-id]');
+  wrap.classList.toggle('disabled', !active);
+  body.style.display = active ? '' : 'none';
+  toggle.textContent = active ? '▾' : '▸';
+  inactive.textContent = active ? '' : 'Not applicable — category not assigned on G2';
+  if (chk) chk.checked = active;
+  wrap.querySelectorAll('input[type="radio"]').forEach(r => { r.disabled = !active; });
+}
+
 // ── Data Binding ───────────────────────────────────────────────────────────
 
 function bindData(product) {
@@ -485,15 +513,7 @@ function bindData(product) {
     const wrap = mainForm.querySelector(`.feature-section[data-cat-id="${cat.id}"]`);
     if (!wrap) return;
     const active = activeCats.includes(cat.id);
-    const body = wrap.querySelector('.feature-section-body');
-    const inactiveLbl = wrap.querySelector('.feature-inactive-label');
-    const toggle = wrap.querySelector('.feature-section-toggle');
-
-    wrap.classList.toggle('disabled', !active);
-    body.style.display = active ? '' : 'none';
-    toggle.textContent = active ? '▾' : '▸';
-    inactiveLbl.textContent = active ? '' : 'Not applicable — category not assigned on G2';
-    wrap.querySelectorAll('input[type="radio"]').forEach(r => { r.disabled = !active; });
+    applyFeatureSectionState(wrap, active);
 
     const catData = (data.features || {})[cat.id] || {};
     cat.subsections.forEach(sub => {

@@ -86,6 +86,22 @@ body {
 .feature-section-header:hover { background: var(--c-feat-hover); }
 .feature-section-title { font-size: 15px; font-weight: 600; flex: 1; color: var(--c-text); }
 .feature-section-toggle { font-size: 12px; color: var(--c-muted); }
+.feat-active-label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--c-muted);
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--c-border);
+  background: #fff;
+}
+.feat-active-label:hover { border-color: var(--c-cta); color: var(--c-cta); }
+.feat-active-label input[type="checkbox"] { accent-color: var(--c-cta); cursor: pointer; width: 13px; height: 13px; }
 .feature-inactive-label { font-size: 12px; color: var(--c-muted); font-style: italic; }
 .feature-section-body { padding: 12px 0 4px; }
 .feature-section.disabled .feature-section-header { background: #f0effe; border-color: #e5dffd; }
